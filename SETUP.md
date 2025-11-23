@@ -186,24 +186,23 @@ After running all notebooks, you'll have:
 
 This project demonstrates:
 
-1. **Prompt Engineering**: Creating different tones with prompts alone
+1. **Prompt Engineering**: Prompts alone generat different tones with 
 2. **Temperature Tuning**: How temperature affects output creativity
-3. **LLM Evaluation**: Using one LLM to judge another
-4. **Practical ML**: Building useful applications without fine-tuning
+3. **LLM Evaluation**: LLM jedges LMM output
 
 ##  Need Help?
 
-- Check the course Canvas page
+- See Q&A in USAGE_GUIDE
 - Review the notebook markdown cells for explanations
 - Look at example outputs in the `results/` folder
 - Ask your instructor or TAs
 
 ##  Important Notes
 
-- **API Costs**: Gemini Flash has a free tier, but be mindful of usage
-- **Data Privacy**: Don't use real personal CVs without consent
+- **API Costs**: Gemini Flash has a free tier, yet be mindful of usage
+- **Data Privacy**: DO NOT use real CVs without consent
 - **Ethical Use**: The brutal roaster is for entertainment/education only
-- **Academic Integrity**: This is a learning tool - understand the code!
+- **Academic Integrity**: This is a learning tool. Understand the code!
 
 ---
 
