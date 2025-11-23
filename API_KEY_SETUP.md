@@ -34,7 +34,7 @@ notepad config.py
 
 Edit this line:
 ```python
-GEMINI_API_KEY = "AIzaSyA7yZTVmqEPqrcNkgrcfbJd6pOuQnbukAY"
+GEMINI_API_KEY = "---"
 ```
 
 ### Step 3: Verify Setup
