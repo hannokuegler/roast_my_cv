@@ -1,6 +1,6 @@
 # Roast My CV - LLM Project
 
-Machine Learning project using LLMs to critique CVs with three different styles.
+This is a Machine Learning project using LLMs to critique CVs with three different styles (Gentle, Medium, Brutal).
 
 ## Quick Start
 
