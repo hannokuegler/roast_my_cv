@@ -25,15 +25,14 @@ jupyter notebook notebooks/06_quick_cv_roaster_v2.ipynb
 
 **Features:**
 -  Automatically loads API key from config.py
--  Upload PDF CVs or select from dataset
+-  Upload PDF CV(s) or select from dataset
 -  Choose roaster model (Gentle/Medium/Brutal)
 -  Get instant metrics (Precision, Recall, F1)
 -  Save results automatically
--  View visualizations
 
 **Steps:**
 1. Configure API key in config.py (one-time setup)
-2. Open the notebook
+2. Open the notebook "06_quick_cv_roaster_v2.ipynb"
 3. Upload a PDF CV OR select from dataset
 4. Choose roaster style
 5. Click "Run All" to generate roast + metrics
@@ -108,21 +107,18 @@ print(f"F1 Score: {detection['f1_score']:.2%}")
 
 These metrics evaluate how well the roaster identifies CV issues:
 
-**Precision** - "Accuracy of critique"
-- Formula: `True Positives / (True Positives + False Positives)`
-- Question: *Of all issues mentioned in critique, what % are real issues?*
-- **High precision (>0.8)** = Critique is accurate, not making things up
+**Precision** - "Accuracy of critique" *Of all issues mentioned in critique, what % are real issues?*
+- Formula: `True Positives / (True Positives + False Positives)` 
+- **High precision (>0.8)** = Critique is accurate
 - **Low precision (<0.5)** = Critique mentions many non-existent issues
 
-**Recall** - "Completeness of critique"
-- Formula: `True Positives / (True Positives + False Negatives)`
-- Question: *Of all actual issues in CV, what % did critique catch?*
-- **High recall (>0.8)** = Critique is comprehensive, catches most issues
+**Recall** - "Completeness of critique" *Of all actual issues in CV, what % did critique catch?*
+- Formula: `True Positives / (True Positives + False Negatives)` 
+- **High recall (>0.8)** = Critique is comprehensive
 - **Low recall (<0.5)** = Critique misses many actual problems
 
-**F1 Score** - "Overall quality"
+**F1 Score** - "Overall quality" *Balanced measure of both precision and recall*
 - Formula: `2 × (Precision × Recall) / (Precision + Recall)`
-- Balanced measure of both precision and recall
 - **High F1 (>0.7)** = Good overall critique quality
 - **Low F1 (<0.5)** = Needs improvement
 
@@ -173,7 +169,7 @@ F1 = 2×(0.75×0.60)/(0.75+0.60) = 0.67
 
 ##  Interpreting Your Results
 
-### Good Results 
+### Strong Results 
 ```
 Model: medium
 Precision: 0.85 (85%)
@@ -196,10 +192,10 @@ Coverage: 0.60 (60%)
 ```
 
 ### How to Improve:
-1. **Low Precision** → Adjust prompt to be more specific, reduce hallucinations
-2. **Low Recall** → Add more comprehensive examples, increase context
+1. **Low Precision** → Adjust prompt to be more specific
+2. **Low Recall** → Add more examples to increase context
 3. **Low Coverage** → Explicitly instruct to review all sections
-4. **All low** → Rethink prompt strategy or try different temperature
+4. **All low** → Rethink prompt strategy and/or try different temperature
 
 ---
 
@@ -208,24 +204,21 @@ Coverage: 0.60 (60%)
 ### For Best Results:
 1. **Use high-quality PDF CVs** - Clear text, good formatting
 2. **Test multiple models** - Compare gentle/medium/brutal
-3. **Review ground truth** - Check if auto-detected issues are accurate
+3. **Review ground truth** - Recheck if auto-detected issues are accurate
 4. **Iterate prompts** - Use metrics to improve your prompts
-5. **Document findings** - Save results for team presentation
+5. **Document findings** - Save results
 
-### Common Issues:
+### Common Combined Issues:
 
 **"Low F1 scores across all models"**
-- Check CV quality - is it complete enough to evaluate?
-- Review ground truth issues - are they being detected correctly?
+- Check CV quality, is it complete enough to evaluate?
 - Consider if issues are too subjective
 
 **"High precision but low recall"**
-- Model is accurate but not comprehensive
 - Add instruction to check all sections
 - Increase max_output_tokens for longer critiques
 
 **"High recall but low precision"**
-- Model is over-flagging issues
 - Make prompts more specific
 - Lower temperature for more focused output
 
@@ -281,9 +274,6 @@ results/
 
 ##  FAQ
 
-**Q: What if I don't have ground truth issues?**
-A: The system auto-detects common issues. You can also manually provide a list.
-
 **Q: Can I define custom issues to detect?**
 A: Yes! Modify `COMMON_CV_ISSUES` in `cv_processor.py`
 
@@ -298,15 +288,14 @@ A: For ML projects, yes - shows comprehensive evaluation approach
 
 ---
 
-##  For Your Project Report
+##  Inspiration for Your Project Report
 
 Include:
 
 1. **Metrics table** for all three models
 2. **Explanation** of what precision/recall/F1 mean in this context
 3. **Comparison** - which model performs best and why
-4. **Examples** - show a CV with ground truth vs detected issues
-5. **Insights** - what did you learn from the metrics?
+4. **Insights** - what did you learn from the metrics?
 
 **Sample write-up:**
 
