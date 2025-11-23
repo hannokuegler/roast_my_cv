@@ -25,3 +25,9 @@ pdfplumber>=0.10.0  # Advanced PDF parsing (optional but recommended)
 
 # Interactive widgets for Jupyter
 ipywidgets>=8.0.0  # For interactive notebook UI
+
+# Fine-tuning (CPU-friendly)
+transformers>=4.35.0
+peft>=0.7.0
+datasets>=2.14.0
+accelerate>=0.24.0
