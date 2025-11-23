@@ -1,56 +1,57 @@
 #  Roast My CV - Project Summary
 
-##  Project Complete!
+## Project Components
 
-All notebooks and supporting files have been created for your CV roasting project.
-
-##  What's Been Created
-
-###  Notebooks (5 total)
+###  Notebooks (6 total)
 
 1. **01_eda.ipynb** - Exploratory Data Analysis
    - Loads and explores the resume dataset
    - Creates helper functions for formatting CVs
-   - Selects test CVs for evaluation
    - Provides data quality insights
 
-2. **02_gentle_roaster.ipynb** - Gentle Roaster (Temperature: 0.4)
+2. **02_gentle_roaster.ipynb** - Gentle Roaster
    - Constructive, encouraging feedback
    - Professional and supportive tone
-   - Temperature experiments: 0.3, 0.5, 0.7
-   - Generates gentle critiques for test CVs
+   - Temperature experiments
 
-3. **03_medium_roaster.ipynb** - Medium Roaster (Temperature: 0.7)
+3. **03_medium_roaster.ipynb** - Medium Roaster
    - Direct, honest feedback
    - Balanced criticism
-   - Temperature experiments: 0.6, 0.7, 0.8
-   - Generates medium critiques for test CVs
+   - Temperature experiments
 
-4. **04_brutal_roaster.ipynb** - Brutal Roaster (Temperature: 0.9)
+4. **04_brutal_roaster.ipynb** - Brutal Roaster
    - Savage, humorous roasts
    - Maximum creativity
-   - Temperature experiments: 0.8, 0.9, 0.95
-   - Generates brutal critiques for test CVs
+   - Temperature experiments
 
 5. **05_evaluation_comparison.ipynb** - Evaluation & Comparison
    - Side-by-side comparison of all models
    - Quantitative analysis (word count, length, etc.)
-   - Visualizations (bar charts, scatter plots)
    - LLM-based quality evaluation
-   - Summary report generation
+
+6. **06_quick_cv_roaster_v2.ipynb** - Quick CV Roasting Application
+- CV Input (PDF upload or dataset sample)
+- Automatic text extraction & preprocessing
+- Model selection to generate output
+- Evaluation metrics (precision, recall, F1, coverage)
+
+
 
 ###  Directory Structure
 
 ```
 roast_my_cv/
  data/
-    resume_data.csv              # Your dataset (existing)
+    cv_texts.txt  
+    resume_data.csv
+    test_cv_indices.json              
  notebooks/
-    01_eda.ipynb                 #  Created
-    02_gentle_roaster.ipynb      #  Created
-    03_medium_roaster.ipynb      #  Created
-    04_brutal_roaster.ipynb      #  Created
-    05_evaluation_comparison.ipynb  #  Created
+    01_eda.ipynb                   
+    02_gentle_roaster.ipynb        
+    03_medium_roaster.ipynb        
+    04_brutal_roaster.ipynb        
+    05_evaluation_comparison.ipynb
+    06_quick_cv_roaster_v2.ipynb  
  results/
     gentle_roaster/              # Will contain gentle critiques
        SAMPLE_cv_0_gentle.json  #  Sample file created
@@ -58,23 +59,23 @@ roast_my_cv/
        SAMPLE_cv_0_medium.json  #  Sample file created
     brutal_roaster/              # Will contain brutal roasts
        SAMPLE_cv_0_brutal.json  #  Sample file created
-    README.md                    #  Documentation created
+ README.md                          
  requirements.txt                 #  Dependencies listed
  .env.example                     #  API key template
  SETUP.md                         #  Setup instructions
  PROJECT_SUMMARY.md               #  This file
+ USAGE_Guide.md                   #  Including instructions for automated usage
 ```
 
 ##  Key Features Implemented
 
-### 1. **Temperature Tuning (Not Full Fine-tuning)**
-Instead of expensive fine-tuning, we use **temperature tuning**:
-- **Gentle**: T=0.4 (focused, consistent)
+### 1. **Temperature Tuning**
+- **Gentle**: T=0.4 (focused)
 - **Medium**: T=0.7 (balanced)
-- **Brutal**: T=0.9 (creative, varied)
+- **Brutal**: T=0.9 (creative)
 
 ### 2. **Prompt Engineering**
-Three distinct prompts create different tones:
+Three different prompts:
 - Gentle: Supportive career advisor
 - Medium: Experienced hiring manager
 - Brutal: Savage roast comedian
@@ -82,14 +83,8 @@ Three distinct prompts create different tones:
 ### 3. **Scalable Code**
 - Reusable functions for CV formatting
 - JSON output for easy processing
-- Clear notebook structure
-- Modular design
+- Clear, modular notebook structure
 
-### 4. **Comprehensive Evaluation**
-- Quantitative metrics (length, emoji count)
-- Visualizations (bar charts, scatter plots)
-- LLM-based quality scoring
-- Side-by-side comparisons
 
 ##  Next Steps - What YOU Need to Do
 
@@ -121,6 +116,7 @@ Run notebooks sequentially:
 3. 03_medium_roaster.ipynb
 4. 04_brutal_roaster.ipynb
 5. 05_evaluation_comparison.ipynb
+6. 06_quick_cv_roaster_v2.ipynb
 
 ### Step 5: Review Results
 Check the `results/` folder for:
@@ -132,11 +128,10 @@ Check the `results/` folder for:
 
 After running all notebooks:
 
-1. **6 CV Critiques** (2 CVs × 3 models)
+1. **CV Critiques**
 2. **Temperature Analysis** showing effects of different settings
-3. **Visual Comparisons** (bar charts, scatter plots)
-4. **Quality Scores** from LLM judge
-5. **Summary Report** with all statistics
+3. **Quality Scores** from LLM judge
+4. **Summary Report** with all statistics
 
 ##  Learning Outcomes
 
@@ -178,13 +173,6 @@ Edit the system prompts in notebooks 02-04 to change the tone:
 GENTLE_SYSTEM_PROMPT = """Your custom prompt here..."""
 ```
 
-##  Important Notes
-
-1. **API Costs**: Gemini Flash is free tier but has limits
-2. **Rate Limiting**: Add delays if you hit rate limits
-3. **Data Privacy**: Don't use real personal CVs without consent
-4. **Sample Files**: SAMPLE_*.json files are examples - real results will be generated when you run the notebooks
-
 ##  Troubleshooting
 
 **Problem**: "API Key Error"
@@ -198,26 +186,3 @@ GENTLE_SYSTEM_PROMPT = """Your custom prompt here..."""
 
 **Problem**: Rate limiting
 - Solution: Add `time.sleep(2)` between API calls
-
-##  Files Reference
-
-| File | Purpose | Status |
-|------|---------|--------|
-| 01_eda.ipynb | Data exploration |  Ready |
-| 02_gentle_roaster.ipynb | Gentle model |  Ready |
-| 03_medium_roaster.ipynb | Medium model |  Ready |
-| 04_brutal_roaster.ipynb | Brutal model |  Ready |
-| 05_evaluation_comparison.ipynb | Comparison |  Ready |
-| requirements.txt | Dependencies |  Ready |
-| SETUP.md | Setup guide |  Ready |
-| .env.example | API key template |  Ready |
-
-##  Ready to Go!
-
-Everything is set up and ready to run. Just add your Gemini API key and start executing the notebooks!
-
-**Good luck with your project!** 
-
----
-
-**Questions?** Check SETUP.md for detailed instructions.
