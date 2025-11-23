@@ -33,7 +33,7 @@ jupyter notebook notebooks/06_quick_cv_roaster_v2.ipynb
 ## Documentation
 
 - **SETUP.md** - Full installation guide
-- **USAGE_GUIDE.md** - How to use and understand metrics
+- **USAGE_GUIDE.md** - How to use with "Command Line Script" and "Python API". Desription and Interpretation of the metrics
 - **PROJECT_SUMMARY.md** - Project overview
 
 ## Security
