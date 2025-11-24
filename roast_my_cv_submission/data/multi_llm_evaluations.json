@@ -1,0 +1,202 @@
+[
+  {
+    "specificity": 8,
+    "relevance": 10,
+    "coherence": 9,
+    "completeness": 8,
+    "overall_usefulness": 9,
+    "reasoning": "The critique is exceptionally relevant, immediately identifying the core flaw of the CV: the mismatch between high-level skills (Spark, ML) and implied low-level experience (Technical Support). It uses strong, direct language to emphasize the 'employer value' perspective, which is highly useful. Specificity is high regarding the *problems* (keyword dump, poor objective writing), though the excerpt cuts off before offering detailed solutions. It is very coherent and provides a necessary, if harsh, reality check.",
+    "model": "Gemini",
+    "cv_idx": 0
+  },
+  {
+    "specificity": 9,
+    "relevance": 10,
+    "coherence": 9,
+    "completeness": 9,
+    "overall_usefulness": 10,
+    "reasoning": "This critique is exceptionally useful despite its harsh tone. It is highly specific, providing actionable examples (like the suggested Spark bullet point) and clear instructions (delete the objective, use 'Present'). It correctly identifies the most critical flaws (lack of metrics, skills-experience mismatch, poor objective) which are universally relevant to CV success. The structure is logical, moving from general impression to detailed fixes, making it a powerful roadmap for a complete CV overhaul.",
+    "model": "Anthropic",
+    "cv_idx": 0
+  },
+  {
+    "specificity": 9,
+    "relevance": 10,
+    "coherence": 9,
+    "completeness": 6,
+    "overall_usefulness": 9,
+    "reasoning": "The critique immediately identifies the single most damaging error in the CV (claiming to be a 'Fresher' while having 5 years of experience). This feedback is highly specific, critically relevant, and actionable. While the excerpt is incomplete (it doesn't cover skills or education yet), the initial point about misrepresenting experience level is essential for passing the first screening filter, making it extremely useful.",
+    "model": "Gemini",
+    "cv_idx": 1
+  },
+  {
+    "specificity": 9,
+    "relevance": 10,
+    "coherence": 9,
+    "completeness": 9,
+    "overall_usefulness": 10,
+    "reasoning": "This critique is exceptionally specific and relevant. It immediately identifies the critical credibility killer (the 'fresher' lie) and the lack of quantifiable achievements, which are fatal flaws for a data role CV. The feedback is highly actionable, providing metric-based examples and a clear priority list for fixing the formatting and content.",
+    "model": "Anthropic",
+    "cv_idx": 1
+  },
+  {
+    "specificity": 1,
+    "relevance": 3,
+    "coherence": 5,
+    "completeness": 1,
+    "overall_usefulness": 2,
+    "reasoning": "The critique is purely introductory and relies on harsh, generalized statements ('mess,' 'identity crisis,' 'credibility flags'). It offers zero specific, actionable advice regarding the skills list, education formatting, or experience description. While the tone suggests a serious problem exists (which is relevant), the lack of detail makes it almost entirely useless for actual CV improvement.",
+    "model": "Gemini",
+    "cv_idx": 2
+  },
+  {
+    "specificity": 9,
+    "relevance": 10,
+    "coherence": 9,
+    "completeness": 9,
+    "overall_usefulness": 10,
+    "reasoning": "This critique is exceptionally relevant because it immediately identifies the catastrophic mismatch between the job title and responsibilities (assuming the critique accurately reflects the full CV), which is the single most critical failure point leading to immediate rejection. The feedback is highly specific, actionable (e.g., 'list specific ML frameworks,' 'add 3-5 real projects'), and well-structured, making it extremely useful for the job seeker to prioritize urgent fixes.",
+    "model": "Anthropic",
+    "cv_idx": 2
+  },
+  {
+    "specificity": 8,
+    "relevance": 10,
+    "coherence": 9,
+    "completeness": 6,
+    "overall_usefulness": 9,
+    "reasoning": "The critique is exceptionally relevant, focusing immediately on the 'fatal flaw' (the assumed mismatch between job titles and responsibilities) which is the primary reason a CV is discarded. It is highly specific about the *problem* and the *impact* on the hiring manager. It is well-structured and coherent. However, its completeness is limited as it cuts off before addressing other visible issues (like the poor Skills list or the vague Objective) and before offering detailed, actionable solutions on *how* to rewrite the mismatched experience.",
+    "model": "Gemini",
+    "cv_idx": 3
+  },
+  {
+    "specificity": 10,
+    "relevance": 10,
+    "coherence": 9,
+    "completeness": 10,
+    "overall_usefulness": 10,
+    "reasoning": "This critique is exceptionally strong because it addresses fundamental, critical errors (formatting, mismatched job descriptions, keyword stuffing) with high specificity. The feedback is highly actionable, clearly structured, and covers every major flaw visible in the excerpt, making it extremely useful for the job seeker who needs a complete overhaul.",
+    "model": "Anthropic",
+    "cv_idx": 3
+  },
+  {
+    "specificity": 1,
+    "relevance": 3,
+    "coherence": 7,
+    "completeness": 2,
+    "overall_usefulness": 1,
+    "reasoning": "This excerpt is purely a harsh, generalized introduction. It diagnoses the CV as a 'mess' and promises 'direct, honest feedback,' but provides zero specific, actionable points for improvement. While the tone is coherent, the lack of content makes it highly unspecific and unhelpful to the job seeker.",
+    "model": "Gemini",
+    "cv_idx": 4
+  },
+  {
+    "specificity": 9.5,
+    "relevance": 10,
+    "coherence": 9,
+    "completeness": 9.5,
+    "overall_usefulness": 10,
+    "reasoning": "This critique is exceptionally useful because it immediately identifies fatal flaws (the iOS content error, lack of metrics, missing CPA) and provides highly specific, actionable steps for a complete rebuild. The structure is logical, moving from major issues to prioritized fixes. It addresses all critical components necessary for a senior accounting CV.",
+    "model": "Anthropic",
+    "cv_idx": 4
+  },
+  {
+    "specificity": 5,
+    "relevance": 10,
+    "coherence": 8,
+    "completeness": 4,
+    "overall_usefulness": 8,
+    "reasoning": "The critique is highly relevant as it immediately identifies the fatal flaws (lack of focus, keyword stuffing) evident in the CV excerpt. However, it scores lower on specificity and completeness because it offers strong judgment without providing actionable steps (e.g., 'replace the objective with a summary') and the critique snippet cuts off, making it incomplete overall.",
+    "model": "Gemini",
+    "cv_idx": 5
+  },
+  {
+    "specificity": 10,
+    "relevance": 10,
+    "coherence": 9,
+    "completeness": 10,
+    "overall_usefulness": 10,
+    "reasoning": "This critique is exceptionally specific and actionable. It identifies fatal flaws (placeholders, fabricated education, objective word salad, job title/responsibility mismatch) and provides clear, prioritized instructions for fixing them (e.g., 'Delete this entirely,' 'Specify programming languages,' 'Fix the work experience'). The structure is logical, covering all major CV sections. While the tone is 'brutal,' the feedback is 100% relevant to immediate CV improvement and would be maximally useful to the job seeker, as it explains why their current document is guaranteed to be rejected.",
+    "model": "Anthropic",
+    "cv_idx": 5
+  },
+  {
+    "specificity": 4,
+    "relevance": 9,
+    "coherence": 5,
+    "completeness": 3,
+    "overall_usefulness": 5,
+    "reasoning": "The critique correctly identifies the two most critical flaws (the 4-year employment gap and the generic, outdated internship description), giving it high relevance. However, it is extremely low on specificity and completeness because it offers zero actionable advice and cuts off abruptly before providing the promised detailed feedback. It functions as a harsh warning but not a helpful guide.",
+    "model": "Gemini",
+    "cv_idx": 6
+  },
+  {
+    "specificity": 9.5,
+    "relevance": 10,
+    "coherence": 9.5,
+    "completeness": 9.5,
+    "overall_usefulness": 10,
+    "reasoning": "This critique is exceptionally strong. It immediately identifies the fatal flaw (the ML skills vs. iOS experience mismatch) and forces the job seeker to make a critical decision about their career path. The feedback is highly specific, providing concrete examples of how to rewrite responsibilities into achievements (BAD vs. GOOD) and addressing all major missing elements, including the significant career gap and lack of projects/metrics. It is highly actionable and relevant.",
+    "model": "Anthropic",
+    "cv_idx": 6
+  },
+  {
+    "specificity": 8,
+    "relevance": 10,
+    "coherence": 9,
+    "completeness": 6,
+    "overall_usefulness": 9,
+    "reasoning": "The critique is highly relevant and specific, immediately identifying the critical failure points: the 'unfiltered keyword dump' in the skills section and the severe contradiction between job titles and listed responsibilities (e.g., 'iOS Development' under 'Engineering Technician'). This feedback is essential for preventing immediate rejection. However, the critique is short and focuses only on the initial impression and skills/contradictions, making it incomplete as a full structural review.",
+    "model": "Gemini",
+    "cv_idx": 7
+  },
+  {
+    "specificity": 10,
+    "relevance": 10,
+    "coherence": 9,
+    "completeness": 10,
+    "overall_usefulness": 10,
+    "reasoning": "This critique is exceptionally strong. It immediately identifies the single most critical flaw (the job title vs. responsibility mismatch) and provides highly specific, actionable advice for every major section of the CV (skills, company names, metrics, timeline). The structure is clear, moving from major issues to prioritized fixes. While the tone is harsh, the honesty is necessary given the severity of the errors, making it extremely useful for the job seeker to prevent immediate rejection.",
+    "model": "Anthropic",
+    "cv_idx": 7
+  },
+  {
+    "specificity": 3,
+    "relevance": 9,
+    "coherence": 8,
+    "completeness": 2,
+    "overall_usefulness": 6,
+    "reasoning": "The critique starts with a highly relevant and coherent diagnosis of the CV's core problem (the misalignment between the objective, background, and massive skills list). However, because the critique is cut off, it lacks specificity and completeness. It identifies the major flaw but stops before offering actionable steps or covering other critical CV sections (like experience or formatting), limiting its immediate usefulness.",
+    "model": "Gemini",
+    "cv_idx": 8
+  },
+  {
+    "specificity": 9,
+    "relevance": 10,
+    "coherence": 9,
+    "completeness": 9,
+    "overall_usefulness": 10,
+    "reasoning": "This critique is exceptionally useful because it immediately identifies the core, fatal flaw of the CV: the massive disconnect between the claimed data analysis skills/objective and the implied technical maintenance work experience. The feedback is highly specific, actionable (especially the Priority Fixes), and covers all critical areas (skills context, quantification, honesty regarding certifications, and work experience rewrite). The structure is clear and the tone, while harsh, is necessary for the job seeker to understand the severity of the issue.",
+    "model": "Anthropic",
+    "cv_idx": 8
+  },
+  {
+    "specificity": 6,
+    "relevance": 10,
+    "coherence": 9,
+    "completeness": 4,
+    "overall_usefulness": 8,
+    "reasoning": "The critique is highly relevant and coherent, immediately identifying a massive, credibility-destroying conflict between the claimed role (Software Developer) and the implied experience (Apparel Sourcing). This is the most critical feedback a candidate could receive. However, the critique is incomplete; it fails to address any other standard CV elements, such as the lengthy Skills section, formatting, or education details, thus limiting its overall specificity and completeness for general CV improvement.",
+    "model": "Gemini",
+    "cv_idx": 9
+  },
+  {
+    "specificity": 9,
+    "relevance": 10,
+    "coherence": 9,
+    "completeness": 9,
+    "overall_usefulness": 10,
+    "reasoning": "This critique is exceptionally useful because it is highly specific, actionable, and correctly identifies catastrophic errors (the work experience/skills mismatch and lack of metrics) that would lead to immediate rejection. The structure is clear (Issues, Concerns, Fixes), and the suggested priority fixes provide concrete examples of how to rewrite bullet points, maximizing the utility for the job seeker.",
+    "model": "Anthropic",
+    "cv_idx": 9
+  }
+]
