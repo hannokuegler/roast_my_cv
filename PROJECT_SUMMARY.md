@@ -51,7 +51,8 @@ roast_my_cv/
     03_medium_roaster.ipynb        
     04_brutal_roaster.ipynb        
     05_evaluation_comparison.ipynb
-    06_quick_cv_roaster_v2.ipynb  
+    06_quick_cv_roaster_v2.ipynb
+    07_fine_tuning.ipynb  
  results/
     gentle_roaster/              # Will contain gentle critiques
        SAMPLE_cv_0_gentle.json  #  Sample file created
